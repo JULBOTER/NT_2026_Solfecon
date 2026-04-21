@@ -1,4 +1,5 @@
 import random
+
 def LineaProducto(numeroSimulaciones):
 
     #semillas por caada atributo de mi tabla 
@@ -15,6 +16,15 @@ def LineaProducto(numeroSimulaciones):
             "descripcion":random.choice(descrpciones),
             "imagen":random.choice(imagenes)
         }
-        
+
+        #inyectando errores controlados 
+        probabilidad_error=random.random()
+        if probabilidad_error < 0.33:  
+            servicio["id"] = None  
+        elif probabilidad_error < 0.66: 
+            servicio["descripcion"] = " "+servicio["descripcion"].upper() # Simulando un error al generar la descripción
+        elif probabilidad_error < 0.9:  
+            servicio["imagen"] = None  
+
         servicios.append(servicio)
     return servicios
