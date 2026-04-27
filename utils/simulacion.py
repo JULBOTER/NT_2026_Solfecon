@@ -27,15 +27,18 @@ def simular_producto(numeroSimulaciones):
         #inyectando errores controlados
         probabilidadError=random.random()
         if(probabilidadError<0.2):
-            producto[idproducto]=None
-        elif(probabilidadError<0.4):
+            producto["idproducto"]=None
+        elif(probabilidadError<0.3):
             producto["descripcion"]=random.choice(["cita medica","Inyección"])
-        elif(probabilidadError<0.5):
+        elif(probabilidadError<0.4):
             producto["precio"]=random.choice([0,-1000,None])
-        elif(probabilidadError<0.8):
+        elif(probabilidadError<0.5):
             producto["estado"] =random.choice(["Actualizado","Desactualizado"])
-        elif(probabilidadError<0.9):
+        elif(probabilidadError<0.6):
             producto["idlinea"]=None
+        elif(probabilidadError<0.7):
+            producto["idpromocion"]=None    
+
 
         productos.append(producto)
     return productos
