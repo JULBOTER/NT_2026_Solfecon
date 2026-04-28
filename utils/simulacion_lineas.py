@@ -8,10 +8,10 @@ def LineaProducto(numeroSimulaciones):
     codigos=[11,12,13,14,15]
     
 
-    lineas=[]
+    servicios=[]
 
     for _ in range (numeroSimulaciones):
-        linea={
+        servicio={
             "id":random.choice(codigos),
             "descripcion":random.choice(descripciones),
             "imagen":random.choice(imagenes)
@@ -20,11 +20,11 @@ def LineaProducto(numeroSimulaciones):
         #inyectando errores controlados 
         probabilidad_error=random.random()
         if probabilidad_error < 0.33:  
-            linea["id"] = None  
+            servicio["id"] = None  
         elif probabilidad_error < 0.66: 
-            linea["descripcion"] = " "+linea["descripcion"].upper() # Simulando un error al generar la descripción
+            servicio["descripcion"] = " "+servicio["descripcion"].upper() # Simulando un error al generar la descripción
         elif probabilidad_error < 0.9:  
-            linea["imagen"] = None  
+            servicio["imagen"] = None  
 
-        lineas.append(linea)
-    return lineas
+        servicios.append(servicio)
+    return servicios
