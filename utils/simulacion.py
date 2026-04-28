@@ -15,7 +15,7 @@ def simular_producto(numeroSimulaciones):
     productos = []
 
     for _ in range(numeroSimulaciones):
-        servicio = {
+        producto = {
             "idproducto": random.choice(idproducto), # Corregido: singular
             "descripcion": random.choice(descripcion),
             "precio": random.choice(precio),
@@ -24,5 +24,21 @@ def simular_producto(numeroSimulaciones):
             "idlinea": random.choice(idlinea),
             "idpromocion": random.choice(idpromocion)
         }
-        productos.append(productos)
-        return productos
+        #inyectando errores controlados
+        probabilidadError=random.random()
+        if(probabilidadError<0.2):
+            producto["idproducto"]=None
+        elif(probabilidadError<0.3):
+            producto["descripcion"]=random.choice(["cita medica","Inyección"])
+        elif(probabilidadError<0.4):
+            producto["precio"]=random.choice([0,-1000,None])
+        elif(probabilidadError<0.5):
+            producto["estado"] =random.choice(["Actualizado","Desactualizado"])
+        elif(probabilidadError<0.6):
+            producto["idlinea"]=None
+        elif(probabilidadError<0.7):
+            producto["idpromocion"]=None    
+
+
+        productos.append(producto)
+    return productos
