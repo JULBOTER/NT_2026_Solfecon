@@ -1,6 +1,6 @@
 import pandas as pd
 
-def limpiar_datos(data_frame_sucio):
+def limpiar_datospro(data_frame_sucio):
     data_frame_limpio = data_frame_sucio.copy()
 
     # 1. Limpiando los textos para eliminar espacios y mayúsculas
