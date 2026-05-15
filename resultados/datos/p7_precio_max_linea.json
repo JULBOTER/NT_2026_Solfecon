@@ -1,0 +1,62 @@
+[
+  {
+    "idlinea":1,
+    "descripcionlinea":"Pinturas y accesorios",
+    "precio_maximo":447321.0
+  },
+  {
+    "idlinea":2,
+    "descripcionlinea":"Construcción",
+    "precio_maximo":427757.4
+  },
+  {
+    "idlinea":3,
+    "descripcionlinea":"Plomería y gas",
+    "precio_maximo":2213281.3999999999
+  },
+  {
+    "idlinea":4,
+    "descripcionlinea":"Eléctricos",
+    "precio_maximo":15922081.0
+  },
+  {
+    "idlinea":5,
+    "descripcionlinea":"Agropecuario",
+    "precio_maximo":33389.0
+  },
+  {
+    "idlinea":6,
+    "descripcionlinea":"Herramientas",
+    "precio_maximo":904281.0
+  },
+  {
+    "idlinea":7,
+    "descripcionlinea":"Seguridad industrial",
+    "precio_maximo":187425.0
+  },
+  {
+    "idlinea":8,
+    "descripcionlinea":"Limpieza y accesorios",
+    "precio_maximo":427507.5
+  },
+  {
+    "idlinea":9,
+    "descripcionlinea":"Adhesivos y empaques",
+    "precio_maximo":333319.0
+  },
+  {
+    "idlinea":10,
+    "descripcionlinea":"Tornillería y accesorios",
+    "precio_maximo":154581.0
+  },
+  {
+    "idlinea":11,
+    "descripcionlinea":"Abrasivos y químicos",
+    "precio_maximo":989941.0
+  },
+  {
+    "idlinea":12,
+    "descripcionlinea":"Herrajes y cerrajería",
+    "precio_maximo":732921.0
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "idlinea":1,
+    "descripcionlinea":"Pinturas y accesorios",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":2,
+    "descripcionlinea":"Construcción",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":3,
+    "descripcionlinea":"Plomería y gas",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":4,
+    "descripcionlinea":"Eléctricos",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":5,
+    "descripcionlinea":"Agropecuario",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":6,
+    "descripcionlinea":"Herramientas",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":7,
+    "descripcionlinea":"Seguridad industrial",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":8,
+    "descripcionlinea":"Limpieza y accesorios",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":9,
+    "descripcionlinea":"Adhesivos y empaques",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":10,
+    "descripcionlinea":"Tornillería y accesorios",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":11,
+    "descripcionlinea":"Abrasivos y químicos",
+    "cantidad_productos":5
+  },
+  {
+    "idlinea":12,
+    "descripcionlinea":"Herrajes y cerrajería",
+    "cantidad_productos":5
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "idpromocion":1,
+    "descripcionprom":"Navidad",
+    "precio_maximo":447321.0
+  },
+  {
+    "idpromocion":2,
+    "descripcionprom":"Saldos",
+    "precio_maximo":427757.4
+  },
+  {
+    "idpromocion":3,
+    "descripcionprom":"Productos seguridad",
+    "precio_maximo":2213281.3999999999
+  },
+  {
+    "idpromocion":4,
+    "descripcionprom":"Sin promoción",
+    "precio_maximo":15922081.0
+  }
+]
