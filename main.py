@@ -23,6 +23,8 @@ from notebook.analisisconrelaciones import aplicar_analisisrelaciones
 from notebook.exportar import exportar_json
 #Graficos
 from notebook.graficas import generar_graficas
+#kpis
+from notebook.exportar import exportar_kpis
 
 
 
@@ -99,4 +101,13 @@ exportar_json(preguntasrelaciones)
 # ══════════════════════════════════════════════════════════════════════════════
 generar_graficas(preguntas)
 
+# ==========================================
+# 6. EXPORTACIÓN DE KPIS (Tu nueva función)
+# ==========================================
+# Invocamos la función con los 3 DataFrames limpios
+exportar_kpis(
+    simulaciones_limpiasproductos, 
+    simulaciones_limpiaslineas, 
+    simulaciones_limpiaspromo
+)
 
