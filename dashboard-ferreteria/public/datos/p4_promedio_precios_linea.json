@@ -1,0 +1,62 @@
+[
+  {
+    "idlinea":1,
+    "descripcionlinea":"Pinturas y accesorios",
+    "promedio_precio":98186.8
+  },
+  {
+    "idlinea":2,
+    "descripcionlinea":"Construcción",
+    "promedio_precio":131530.12
+  },
+  {
+    "idlinea":3,
+    "descripcionlinea":"Plomería y gas",
+    "promedio_precio":797535.08
+  },
+  {
+    "idlinea":4,
+    "descripcionlinea":"Eléctricos",
+    "promedio_precio":3386621.0
+  },
+  {
+    "idlinea":5,
+    "descripcionlinea":"Agropecuario",
+    "promedio_precio":21039.0
+  },
+  {
+    "idlinea":6,
+    "descripcionlinea":"Herramientas",
+    "promedio_precio":627487.0
+  },
+  {
+    "idlinea":7,
+    "descripcionlinea":"Seguridad industrial",
+    "promedio_precio":69793.5
+  },
+  {
+    "idlinea":8,
+    "descripcionlinea":"Limpieza y accesorios",
+    "promedio_precio":106433.6
+  },
+  {
+    "idlinea":9,
+    "descripcionlinea":"Adhesivos y empaques",
+    "promedio_precio":112205.1
+  },
+  {
+    "idlinea":10,
+    "descripcionlinea":"Tornillería y accesorios",
+    "promedio_precio":78135.4
+  },
+  {
+    "idlinea":11,
+    "descripcionlinea":"Abrasivos y químicos",
+    "promedio_precio":262351.0
+  },
+  {
+    "idlinea":12,
+    "descripcionlinea":"Herrajes y cerrajería",
+    "promedio_precio":195755.0
+  }
+]

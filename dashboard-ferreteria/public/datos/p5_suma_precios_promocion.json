@@ -1,0 +1,22 @@
+[
+  {
+    "idpromocion":1,
+    "descripcionprom":"Navidad",
+    "suma_precios":490934.0
+  },
+  {
+    "idpromocion":2,
+    "descripcionprom":"Saldos",
+    "suma_precios":657650.62
+  },
+  {
+    "idpromocion":3,
+    "descripcionprom":"Productos seguridad",
+    "suma_precios":3987675.3999999999
+  },
+  {
+    "idpromocion":4,
+    "descripcionprom":"Sin promoción",
+    "suma_precios":24299103.0
+  }
+]

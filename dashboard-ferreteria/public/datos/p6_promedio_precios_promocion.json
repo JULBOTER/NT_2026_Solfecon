@@ -1,0 +1,22 @@
+[
+  {
+    "idpromocion":1,
+    "descripcionprom":"Navidad",
+    "promedio_precio":98186.8
+  },
+  {
+    "idpromocion":2,
+    "descripcionprom":"Saldos",
+    "promedio_precio":131530.12
+  },
+  {
+    "idpromocion":3,
+    "descripcionprom":"Productos seguridad",
+    "promedio_precio":797535.08
+  },
+  {
+    "idpromocion":4,
+    "descripcionprom":"Sin promoción",
+    "promedio_precio":539980.0699999999
+  }
+]

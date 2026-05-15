@@ -21,6 +21,9 @@ from notebook.exportar import exportar_json
 #analisis con relaciones
 from notebook.analisisconrelaciones import aplicar_analisisrelaciones
 from notebook.exportar import exportar_json
+#Graficos
+from notebook.graficas import generar_graficas
+
 
 
 #PROMOCIONES 
@@ -90,4 +93,10 @@ preguntasrelaciones = aplicar_analisisrelaciones(
     simulaciones_limpiaspromo
 )
 exportar_json(preguntasrelaciones)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# GRÁFICAS
+# ══════════════════════════════════════════════════════════════════════════════
+generar_graficas(preguntas)
+
 
